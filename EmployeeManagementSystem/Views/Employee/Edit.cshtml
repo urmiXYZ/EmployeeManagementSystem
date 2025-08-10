@@ -1,0 +1,47 @@
+﻿@model EmployeeManagementSystem.Models.Employee
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit" asp-controller="Employee" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="PicturePath" /> <!-- Keep existing path if no new upload -->
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Current Picture</label><br />
+        @if (!string.IsNullOrEmpty(Model.PicturePath))
+        {
+                <img src="@Url.Content(Model.PicturePath)" 
+                     alt="@Model.Name" 
+                     style="width: 120px; height: 120px; object-fit: cover;" />
+        }
+        else
+        {
+                <p>No picture available</p>
+        }
+    </div>
+
+    <div class="form-group">
+        <label>Upload New Picture (optional)</label>
+        <input asp-for="Picture" type="file" class="form-control" />
+        <span asp-validation-for="Picture" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+}

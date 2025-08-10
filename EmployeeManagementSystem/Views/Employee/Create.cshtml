@@ -1,0 +1,24 @@
+﻿ @model EmployeeManagementSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Create Employee";
+}
+<h2>Create Employee</h2>
+<form asp-action="Create" asp-controller="Employee" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" type="email" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Picture">Picture</label>
+        <input asp-for="Picture" type="file" class="form-control" />
+    </div>
+    <div>
+        <button type="submit" class="btn btn-success mt-2">Submit</button>
+    </div>
+</form>
+
