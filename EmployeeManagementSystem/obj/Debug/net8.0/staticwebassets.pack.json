@@ -5,16 +5,12 @@
       "PackagePath": "staticwebassets\\EmployeeManagementSystem.0n27is6tty.bundle.scp.css"
     },
     {
-      "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg",
-      "PackagePath": "staticwebassets\\Pictures\\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg"
+      "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\20.png",
+      "PackagePath": "staticwebassets\\Pictures\\20.png"
     },
     {
-      "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\Nusaiba Faruk Inaya.jpg",
-      "PackagePath": "staticwebassets\\Pictures\\Nusaiba Faruk Inaya.jpg"
-    },
-    {
-      "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\bsbb.jpg",
-      "PackagePath": "staticwebassets\\Pictures\\bsbb.jpg"
+      "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\7.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\7.jpg"
     },
     {
       "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\css\\site.css",
@@ -23,6 +19,10 @@
     {
       "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\js\\form-validation.js"
     },
     {
       "Id": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\js\\site.js",

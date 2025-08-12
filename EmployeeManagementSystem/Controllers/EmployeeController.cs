@@ -31,10 +31,15 @@ namespace EmployeeManagementSystem.Controllers
                 ModelState.AddModelError("Picture", "Picture is required.");
             }
 
+            if (!ModelState.IsValid)
+            {
+                return View(employee);
+            }
+
             if (ModelState.IsValid)
             {
                 string fileName = Path.GetFileName(employee.Picture.FileName);
-                string extension = Path.GetExtension(fileName);
+                string extension = Path.GetExtension(fileName).ToLowerInvariant();
 
                 if (extension != ".jpg" && extension != ".png" && extension != ".jpeg")
                 {
@@ -42,15 +47,23 @@ namespace EmployeeManagementSystem.Controllers
                     return View(employee);
                 }
 
-                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures", employee.Name + extension);
+                _context.Employees.Add(employee);
+                _context.SaveChanges();
+
+                string picturesFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures");
+                if (!Directory.Exists(picturesFolder))
+                {
+                    Directory.CreateDirectory(picturesFolder);
+                }
+
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures", employee.Id + extension);
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     employee.Picture.CopyTo(stream);
                 }
 
-                employee.PicturePath = "/Pictures/" + employee.Name + extension;
-
-                _context.Employees.Add(employee);
+                employee.PicturePath = "/Pictures/" + employee.Id + extension;
+                _context.Entry(employee).Property(e => e.PicturePath).IsModified = true;
                 _context.SaveChanges();
 
                 return RedirectToAction("Index");
@@ -71,6 +84,10 @@ namespace EmployeeManagementSystem.Controllers
         [HttpPost]
         public IActionResult Edit(int id, Employee updatedEmployee)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(updatedEmployee);
+            }
             if (ModelState.IsValid)
             {
                 var employee = _context.Employees.FirstOrDefault(e => e.Id == id);
@@ -82,7 +99,7 @@ namespace EmployeeManagementSystem.Controllers
                 if (updatedEmployee.Picture != null)
                 {
                     string fileName = Path.GetFileName(updatedEmployee.Picture.FileName);
-                    string extension = Path.GetExtension(fileName);
+                    string extension = Path.GetExtension(fileName).ToLowerInvariant();
 
                     if (extension != ".jpg" && extension != ".png" && extension != ".jpeg")
                     {
@@ -90,13 +107,22 @@ namespace EmployeeManagementSystem.Controllers
                         return View(updatedEmployee);
                     }
 
-                    string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures", updatedEmployee.Name + extension);
+                    if (!string.IsNullOrEmpty(employee.PicturePath))
+                    {
+                        string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", employee.PicturePath.TrimStart('/'));
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+
+                    string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Pictures", updatedEmployee.Id + extension);
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         updatedEmployee.Picture.CopyTo(stream);
                     }
 
-                    employee.PicturePath = "/Pictures/" + updatedEmployee.Name + extension;
+                    employee.PicturePath = "/Pictures/" + updatedEmployee.Id + extension;
                 }
 
                 _context.SaveChanges();
@@ -105,8 +131,6 @@ namespace EmployeeManagementSystem.Controllers
 
             return View(updatedEmployee);
         }
-
-
 
         public IActionResult Delete(int id)
         {

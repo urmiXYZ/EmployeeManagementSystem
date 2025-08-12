@@ -170,3 +170,4 @@ E:\Class notes\NINETH SEMESTER\.Net\EmployeeManagementSystem\EmployeeManagementS
 E:\Class notes\NINETH SEMESTER\.Net\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.pdb
 E:\Class notes\NINETH SEMESTER\.Net\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.genruntimeconfig.cache
 E:\Class notes\NINETH SEMESTER\.Net\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\ref\EmployeeManagementSystem.dll
+E:\Class notes\NINETH SEMESTER\.Net\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.sourcelink.json

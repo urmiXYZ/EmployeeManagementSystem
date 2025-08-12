@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nnaeUJhcIL+6j1Njmgy5GeuNyQEOdLWQ5v8xE5mXbVo=",
+  "Hash": "+lp99NUZRE+gqutHHCU/4GlcqtwpIoxZ5bAXXhQzNwY=",
   "Source": "EmployeeManagementSystem",
   "BasePath": "_content/EmployeeManagementSystem",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\js\\form-validation.js",
+      "SourceId": "EmployeeManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagementSystem",
+      "RelativePath": "js/form-validation#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u6pgiutc2y",
+      "Integrity": "esKdEPkXYlik27jJTO0fIkgjrNm4CdhHeYbI5Vz7cgY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\form-validation.js"
     },
     {
       "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\js\\site.js",
@@ -1319,12 +1340,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg",
+      "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\20.png",
       "SourceId": "EmployeeManagementSystem",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\",
       "BasePath": "_content/EmployeeManagementSystem",
-      "RelativePath": "Pictures/476b23bb-c07a-4f9d-9687-5a41f0d1845e#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Pictures/20#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1333,19 +1354,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lu5eq605e7",
-      "Integrity": "HYd1Oe6vd2l1lh85r3tWW1BLgfMc2wTxmp0B+oC7olw=",
+      "Fingerprint": "24td11l98y",
+      "Integrity": "XlZFVNl5EwrTlYaAghuRT7jfdjMKwtrgGtzJlIw5BJc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pictures\\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg"
+      "OriginalItemSpec": "wwwroot\\Pictures\\20.png"
     },
     {
-      "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\bsbb.jpg",
+      "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\7.jpg",
       "SourceId": "EmployeeManagementSystem",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\",
       "BasePath": "_content/EmployeeManagementSystem",
-      "RelativePath": "Pictures/bsbb#[.{fingerprint}]?.jpg",
+      "RelativePath": "Pictures/7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1354,32 +1375,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kekp8epapq",
-      "Integrity": "jEOsGRLd0pgmRGVqniM4GyYPIK4ySu6VgpWFozTP1Gg=",
+      "Fingerprint": "135y9c70o2",
+      "Integrity": "PRfYGK2ETS5WueYq7ekNzp5OYkFPj9h4+xfd9OxBn30=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pictures\\bsbb.jpg"
-    },
-    {
-      "Identity": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\Nusaiba Faruk Inaya.jpg",
-      "SourceId": "EmployeeManagementSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\",
-      "BasePath": "_content/EmployeeManagementSystem",
-      "RelativePath": "Pictures/Nusaiba Faruk Inaya#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4d3r6qxnyl",
-      "Integrity": "yIcgzdWkxtVOEOTYfHqAnBgCCj8LdURa7Fg1SD/wG6Y=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pictures\\Nusaiba Faruk Inaya.jpg"
+      "OriginalItemSpec": "wwwroot\\Pictures\\7.jpg"
     }
   ],
   "Endpoints": [
@@ -1488,7 +1488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 19:02:59 GMT"
+          "Value": "Tue, 12 Aug 2025 17:41:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1533,7 +1533,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 19:02:59 GMT"
+          "Value": "Tue, 12 Aug 2025 17:41:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1578,7 +1578,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 19:02:59 GMT"
+          "Value": "Tue, 12 Aug 2025 17:41:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1615,7 +1615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 19:02:59 GMT"
+          "Value": "Tue, 12 Aug 2025 17:41:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1708,6 +1708,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/form-validation.js",
+      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\js\\form-validation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"esKdEPkXYlik27jJTO0fIkgjrNm4CdhHeYbI5Vz7cgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 16:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-esKdEPkXYlik27jJTO0fIkgjrNm4CdhHeYbI5Vz7cgY="
+        }
+      ]
+    },
+    {
+      "Route": "js/form-validation.u6pgiutc2y.js",
+      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\js\\form-validation.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"esKdEPkXYlik27jJTO0fIkgjrNm4CdhHeYbI5Vz7cgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 16:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u6pgiutc2y"
+        },
+        {
+          "Name": "label",
+          "Value": "js/form-validation.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-esKdEPkXYlik27jJTO0fIkgjrNm4CdhHeYbI5Vz7cgY="
         }
       ]
     },
@@ -6468,8 +6550,8 @@
       ]
     },
     {
-      "Route": "Pictures/476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg",
-      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg",
+      "Route": "Pictures/20.24td11l98y.png",
+      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\20.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6478,56 +6560,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42568"
+          "Value": "250196"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"HYd1Oe6vd2l1lh85r3tWW1BLgfMc2wTxmp0B+oC7olw=\""
+          "Value": "\"XlZFVNl5EwrTlYaAghuRT7jfdjMKwtrgGtzJlIw5BJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 18:47:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HYd1Oe6vd2l1lh85r3tWW1BLgfMc2wTxmp0B+oC7olw="
-        }
-      ]
-    },
-    {
-      "Route": "Pictures/476b23bb-c07a-4f9d-9687-5a41f0d1845e.lu5eq605e7.jpeg",
-      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42568"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HYd1Oe6vd2l1lh85r3tWW1BLgfMc2wTxmp0B+oC7olw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 18:47:35 GMT"
+          "Value": "Tue, 12 Aug 2025 16:52:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6537,21 +6582,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lu5eq605e7"
+          "Value": "24td11l98y"
         },
         {
           "Name": "label",
-          "Value": "Pictures/476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg"
+          "Value": "Pictures/20.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HYd1Oe6vd2l1lh85r3tWW1BLgfMc2wTxmp0B+oC7olw="
+          "Value": "sha256-XlZFVNl5EwrTlYaAghuRT7jfdjMKwtrgGtzJlIw5BJc="
         }
       ]
     },
     {
-      "Route": "Pictures/bsbb.jpg",
-      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\bsbb.jpg",
+      "Route": "Pictures/20.png",
+      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\20.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6560,19 +6605,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5559721"
+          "Value": "250196"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"jEOsGRLd0pgmRGVqniM4GyYPIK4ySu6VgpWFozTP1Gg=\""
+          "Value": "\"XlZFVNl5EwrTlYaAghuRT7jfdjMKwtrgGtzJlIw5BJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 19:00:01 GMT"
+          "Value": "Tue, 12 Aug 2025 16:52:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6582,13 +6627,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jEOsGRLd0pgmRGVqniM4GyYPIK4ySu6VgpWFozTP1Gg="
+          "Value": "sha256-XlZFVNl5EwrTlYaAghuRT7jfdjMKwtrgGtzJlIw5BJc="
         }
       ]
     },
     {
-      "Route": "Pictures/bsbb.kekp8epapq.jpg",
-      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\bsbb.jpg",
+      "Route": "Pictures/7.135y9c70o2.jpg",
+      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6597,7 +6642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5559721"
+          "Value": "4611615"
         },
         {
           "Name": "Content-Type",
@@ -6605,11 +6650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jEOsGRLd0pgmRGVqniM4GyYPIK4ySu6VgpWFozTP1Gg=\""
+          "Value": "\"PRfYGK2ETS5WueYq7ekNzp5OYkFPj9h4+xfd9OxBn30=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 19:00:01 GMT"
+          "Value": "Tue, 12 Aug 2025 15:44:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6619,21 +6664,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kekp8epapq"
+          "Value": "135y9c70o2"
         },
         {
           "Name": "label",
-          "Value": "Pictures/bsbb.jpg"
+          "Value": "Pictures/7.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jEOsGRLd0pgmRGVqniM4GyYPIK4ySu6VgpWFozTP1Gg="
+          "Value": "sha256-PRfYGK2ETS5WueYq7ekNzp5OYkFPj9h4+xfd9OxBn30="
         }
       ]
     },
     {
-      "Route": "Pictures/Nusaiba Faruk Inaya.4d3r6qxnyl.jpg",
-      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\Nusaiba Faruk Inaya.jpg",
+      "Route": "Pictures/7.jpg",
+      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6642,7 +6687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14048214"
+          "Value": "4611615"
         },
         {
           "Name": "Content-Type",
@@ -6650,56 +6695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yIcgzdWkxtVOEOTYfHqAnBgCCj8LdURa7Fg1SD/wG6Y=\""
+          "Value": "\"PRfYGK2ETS5WueYq7ekNzp5OYkFPj9h4+xfd9OxBn30=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 18:13:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4d3r6qxnyl"
-        },
-        {
-          "Name": "label",
-          "Value": "Pictures/Nusaiba Faruk Inaya.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yIcgzdWkxtVOEOTYfHqAnBgCCj8LdURa7Fg1SD/wG6Y="
-        }
-      ]
-    },
-    {
-      "Route": "Pictures/Nusaiba Faruk Inaya.jpg",
-      "AssetFile": "E:\\Class notes\\NINETH SEMESTER\\.Net\\EmployeeManagementSystem\\EmployeeManagementSystem\\wwwroot\\Pictures\\Nusaiba Faruk Inaya.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14048214"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yIcgzdWkxtVOEOTYfHqAnBgCCj8LdURa7Fg1SD/wG6Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 10 Aug 2025 18:13:50 GMT"
+          "Value": "Tue, 12 Aug 2025 15:44:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6709,7 +6709,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yIcgzdWkxtVOEOTYfHqAnBgCCj8LdURa7Fg1SD/wG6Y="
+          "Value": "sha256-PRfYGK2ETS5WueYq7ekNzp5OYkFPj9h4+xfd9OxBn30="
         }
       ]
     }

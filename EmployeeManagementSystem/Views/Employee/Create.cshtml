@@ -7,18 +7,28 @@
 <form asp-action="Create" asp-controller="Employee" method="post" enctype="multipart/form-data">
     <div>
         <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
+        <input asp-for="Name" class="form-control" id="NameInput" />
+        <span asp-validation-for="Name" class="text-danger" id="NameError"></span>
     </div>
     <div>
         <label asp-for="Email"></label>
         <input asp-for="Email" type="email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
     <div>
         <label asp-for="Picture">Picture</label>
-        <input asp-for="Picture" type="file" class="form-control" />
+        <input asp-for="Picture" type="file" class="form-control" accept=".jpg,.jpeg,.png" />
+        <span asp-validation-for="Picture" class="text-danger"></span>
     </div>
-    <div>
-        <button type="submit" class="btn btn-success mt-2">Submit</button>
+    <div class="d-flex gap-2 mt-2">
+        <button type="submit" class="btn btn-success">Submit</button>
+        <a asp-action="Index" class="btn btn-danger">Back</a>
     </div>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/form-validation.js"></script>
+}
+
 

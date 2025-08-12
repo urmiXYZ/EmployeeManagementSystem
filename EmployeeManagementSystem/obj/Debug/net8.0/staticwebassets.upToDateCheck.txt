@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\form-validation.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -58,6 +59,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\Pictures\476b23bb-c07a-4f9d-9687-5a41f0d1845e.jpeg
-wwwroot\Pictures\bsbb.jpg
-wwwroot\Pictures\Nusaiba Faruk Inaya.jpg
+wwwroot\Pictures\20.png
+wwwroot\Pictures\7.jpg
